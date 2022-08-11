@@ -1,2 +1,1 @@
-# landingpage
-Odin CSS project - landing page
+In this TOP project, I will be creating a web page based off of a provided design. This project will help me practice designing websites using HTML and styling them with CSS.
