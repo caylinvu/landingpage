@@ -1,21 +1,38 @@
 body {
-    margin: 0px 120px;
-}
-
-.section1 {
-    display: flex;
-    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
+    background-color: palevioletred;
+    padding: 6px 30px 2px;
 }
 
-.logo {
+.header .left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
 
+.header .right {
+    flex-shrink: 0;
+}
+
+.logo img {
+    max-width: 75px;
+    border-radius: 50%;
+}
+
+.catsheader {
+    color: darkslategray;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration-line: underline overline;
+    text-decoration-thickness: 10px;
 }
 
 ul {
@@ -23,15 +40,52 @@ ul {
     display: flex;
     margin: 0px;
     padding: 0px;
-    gap: 15px;
+    gap: 30px;
 }
 
 ul a {
     text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    color: darkslategray;
 }
 
-.intro {
+.section1 {
     display: flex;
-    justify-content: space-between;
-    margin: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 350px;
+    background-color: mistyrose;
+    gap: 50px;
 }
+
+.section1 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    min-width: 500px;
+}
+
+.section1 .left .title {
+    color: mediumvioletred;
+}
+
+.section1 .left .text {
+    color: darkslategray;
+    padding-bottom: 20px;
+}
+
+.section1 .left .button button {
+    padding: 10px 20px;
+    background-color: palevioletred;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    border-width: 0px;
+    border-radius: 25px;
+}
+
+.section1 .right img {
+    max-width: 500px;
+    border-radius: 25px;
+}
+
