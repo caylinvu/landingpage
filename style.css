@@ -1,3 +1,7 @@
+body {
+    margin: 0px 120px;
+}
+
 .section1 {
     display: flex;
     flex-direction: column;
@@ -6,4 +10,28 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.logo {
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 15px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
 }
