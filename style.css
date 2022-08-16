@@ -157,3 +157,35 @@ ul a {
     font-weight: bold;
     color: darkslategray;
 }
+
+.section4 {
+    background-color: palevioletred;
+    margin: 80px 350px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4 .calltoaction {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+.calltoaction .text1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.section4 button {
+    font-family:'Courier New', Courier, monospace;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    flex-shrink: 0;
+}
