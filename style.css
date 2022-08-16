@@ -28,7 +28,7 @@ body {
 }
 
 .catsheader {
-    color: darkslategray;
+    color: rgb(41, 65, 65);
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     text-decoration-line: underline overline;
@@ -46,7 +46,7 @@ ul {
 ul a {
     text-decoration: none;
     font-family:'Courier New', Courier, monospace;
-    color: darkslategray;
+    color: rgb(41, 65, 65);
 }
 
 .section1 {
@@ -95,7 +95,7 @@ ul a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 90px 0px 150px 0px;
+    padding: 95px 0px 150px 0px;
     gap: 50px;
 }
 
@@ -133,4 +133,27 @@ ul a {
     font-size: 32px;
     font-weight: bold;
     flex-shrink: 0;
+}
+
+.section3 {
+    background-color: mistyrose;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.section3 .quote {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: mediumvioletred;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section3 .quote .author {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslategray;
 }
