@@ -197,3 +197,12 @@ ul a {
     flex-shrink: 0;
     max-height: 50px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    padding: 25px 0px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
