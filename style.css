@@ -159,12 +159,19 @@ ul a {
 }
 
 .section4 {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.section4 .container {
+    display: flex;
     background-color: palevioletred;
-    margin: 80px 350px;
+    align-items: center;
+    gap: 150px;
     padding: 50px 100px;
     border-radius: 8px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .section4 .calltoaction {
@@ -188,4 +195,5 @@ ul a {
     color: white;
     font-size: 18px;
     flex-shrink: 0;
+    max-height: 50px;
 }
