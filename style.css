@@ -206,3 +206,13 @@ ul a {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.ghlogo {
+    width: 23px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
